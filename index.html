@@ -1,0 +1,41 @@
+<!--Linked Files -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/two.css">
+<link rel="stylesheet" href="css/one.css">
+<link rel="stylesheet" href="css/three.css">
+<script src="js/bootstrap.min.js"></script>
+<body>
+<script src="form.js"></script><!-- Add external script file-->
+<div class="ribbon"><div class="ribbon-stitches-top">
+</div><strong class="ribbon-content"><h1>WellCome to Portal</h1></strong><div class="ribbon-stitches-bottom"></div></div>
+<a href='signin.php' class='button'>Sign In</a>
+
+<!-- Add js Function on Form-->
+<form onsubmit="return myfun()" method="post" class="form-container">
+<div class="form-title"><h2>Sign up </h2></div>
+
+<!-- name box-->
+<div class="form-title">Name</div>
+<input class="form-field" id="name" type="text" value="" name="firstname" /><br />
+<span style="color:black;"id="message"> </span><br />
+<!-- Email box-->
+<div class="form-title">Email</div>
+<input class="form-field" id="email" type="text" name="email" /><br />
+<span style="color:black;"id="msg"> </span><br />
+
+<!-- Password box-->
+<div class="form-title">Password</div>
+<input class="form-field" id="pwd" type="text" name="email" /><br />
+<span style="color:black;"id="size"> </span><br />
+
+<!-- Confirm Password box-->
+<div class="form-title">Confirm Password</div>
+<input class="form-field" id="cpwd" type="text" name="email" /><br />
+<span style="color:black;"id="match"> </span><br />
+
+<!-- Submit Button-->
+<div class="submit-container">
+<input class="submit-button" type="submit" value="Submit" />
+</div>
+</form>
+</body>
